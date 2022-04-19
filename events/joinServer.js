@@ -7,7 +7,6 @@ module.exports = {
         var db = admin.database();
         var ref = db.ref('/');
         test = await guild.members.fetch()
-        console.log(test);
         ref.update({
             [guildID]: 'NIL'
         });
